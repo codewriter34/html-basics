@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Htnl learning</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<style>
-    h1{
-        color: red; 
-        text-align: center;
-    }
-    h2{
-        color: blue;
-    }
-    img{
-      width: 200px;
-      height: 200px;
-    }
-    h6{
-        color: green;
-    }
-    h3{
-        color: blueviolet;
-    }
-    .text_image{
-        color: yellow;
-    }
-    #p2{ 
-        color: salmon; 
-    }
-</style>
 <body>
-    <!-- heading tags -->
-    <h1 class="first">First HTML page</h1>
-    <h2>Second html page</h2>
-    <h3 class="third">Third</h3>
-    <h4 class="first">fourth</h4>
-    <h5 class="first">fifth</h5>
-    <h6 class="h6" >sixth</h6>
+    <header class="navbar" id="navbarid">
+        <ul>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <!-- Hero section -->
+    <section class="hero section-m">
+        <div class="hero-text">
+            <h1>Hi, Im Elisha, <br> a Full-Stack Developer</h1>
+            <p>I'm a developer with a passion for creating beautiful and functional web applications. 
+                I love to learn new technologies and love to improve my skills.</p>
+                <button><a href="">Download Resume</a></button>
+        </div>
+        <div class="hero-image">
+            <img src="girl.avif" alt="">
+        </div>
 
-    <!-- paragraphs tag -->
-     <p>This is a paragraph</p>
+    </section>
 
-     <img src="bee4.jpg" >
-     <h3 class="text_image">This is an image</h3>
-     <p id="p2">This is another paragraph</p>
+    <!-- recent post -->
+     <section class="recent-post section-m">
+        <div class="post-text">
+            <p>Recent Post</p>
+            <span>View All</span>
+        </div>
+        <div class="post-card">
+            <div class="post-card-1">
+                <h1>Making a design System From Scratch</h1>
+                <p>12 Feb 2020 | <span>Design,Pattern</span></p>
+                <p class="p-text">Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. Est nam ea repellendus minima dolor. Sed, modi temporibus 
+                     officiis assumenda earum tenetur similique accusamus. Consequuntu
+                    r quas quod harum, ducimus nemo incidunt?</p>
+            </div>
+                        <div class="post-card-1">
+                <h1>Making a design System From Scratch</h1>
+                <p>12 Feb 2020 | <span>Design,Pattern</span></p>
+                <p class="p-text">Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. Est nam ea repellendus minima dolor. Sed, modi temporibus 
+                     officiis assumenda earum tenetur similique accusamus. Consequuntu
+                    r quas quod harum, ducimus nemo incidunt?</p>
+            </div>
+        </div>
+     </section>
 </body>
 </html>
