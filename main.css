@@ -9,7 +9,7 @@
     margin-right: 70px;
 }
 .navbar{
-    background-color: #fff;
+    background-color: #21243D;
     padding: 20px;
 }
 .navbar ul{
@@ -23,7 +23,7 @@
     margin-left: 20px;
 }
 .navbar ul li a{
-    color: #1a1a1a;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
